@@ -1,5 +1,5 @@
-<template lang="html">
-  <section class="app-sidebar">
+<template>
+  <section class="app-sidebar mt-5">
     <nav class="sidebar sidebar-offcanvas" id="sidebar">
       <ul class="nav">
         <li class="nav-item nav-profile">

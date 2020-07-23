@@ -5,7 +5,7 @@
       <div class="container-fluid page-body-wrapper">
         <app-sidebar />
         <div class="main-panel">
-          <div class="content-wrapper">
+          <div class="content-wrapper mt-5">
             <router-view></router-view>
           </div>
 
@@ -16,15 +16,15 @@
   </div>
 </template>
 <script>
-import AppHeader from "../src/components/partials/AppHeader";
-import AppSidebar from "../src/components/partials/AppSidebar";
-import AppFooter from "../src/components/partials/AppFooter";
+import AppHeader from '../src/components/partials/AppHeader';
+import AppSidebar from '../src/components/partials/AppSidebar';
+import AppFooter from '../src/components/partials/AppFooter';
 export default {
-  name: "app",
+  name: 'app',
   components: {
     AppHeader,
     AppSidebar,
-    AppFooter,
-  },
+    AppFooter
+  }
 };
 </script>
